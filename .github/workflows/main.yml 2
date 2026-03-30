@@ -1,0 +1,18 @@
+‎name: 24/7 Automation
+‎on:
+‎  schedule:
+‎    - cron: '0 */2 * * *'  # Every 7 hours
+‎  workflow_dispatch:        # Manual trigger
+‎
+‎jobs:
+‎  run:
+‎    runs-on: ubuntu-latest
+‎    steps:
+‎      - uses: actions/checkout@v4
+‎      - uses: actions/setup-python@v5
+‎        with:
+‎          python-version: '3.11'
+‎      - run: pip install requests
+‎      - run: python your_script.py
+‎        env:
+‎          API_KEY: ${{ secrets.API_KEY }}
