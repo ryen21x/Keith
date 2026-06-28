@@ -2,9 +2,7 @@
 
 <h1 align="center">KEITH-MD</h1>
 
-<h1 align="center">
-  this is a simple commonjs bot base using the latest whatsapp api provided by keithbaileys.
-</h1>
+
 
 
 <div style="text-align: center;">
@@ -56,9 +54,7 @@
 </table>
 
 
-<p align="center">
-  <i>I don't care  how many followers I have, Nor do I care about how many deploy my bot. I write this bot scripts to make my WhatsApp enjoyable, And to assist me with my daily tasks. What brings me happiness is ensuring all my scripts are fixed, So I can sit back, relax, watch Netflix and play konami</i>
-</p>
+
 
   </a>
 </p>
